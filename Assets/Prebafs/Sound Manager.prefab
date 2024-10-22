@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4482476589958240291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4482476589958240293}
+  - component: {fileID: 4482476589958240290}
+  m_Layer: 0
+  m_Name: Sound Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4482476589958240293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4482476589958240291}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.727, y: 4.186, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4482476589958240290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4482476589958240291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619e022b71918f44b9aba434ea59f91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundlist:
+  - Name: Moving Sound
+    AudioClip: {fileID: 8300000, guid: 81db6967ef0d91b4abf613b18a2bb099, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 1
+    PlayAtStart: 0
+    Source: {fileID: 0}
+  - Name: Gun Fire
+    AudioClip: {fileID: 8300000, guid: 9b6f8089b8ccf364cadd1a9a88750cf1, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayAtStart: 0
+    Source: {fileID: 0}
+  - Name: Sword Hit
+    AudioClip: {fileID: 8300000, guid: e5b445d62e9e89343bf86a2eba93a5b2, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayAtStart: 0
+    Source: {fileID: 0}
+  - Name: Sword Air
+    AudioClip: {fileID: 8300000, guid: 870f539df8a70f74bbd0ba0ffa0a1368, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayAtStart: 0
+    Source: {fileID: 0}
+  - Name: Jump
+    AudioClip: {fileID: 8300000, guid: 389051120d926dc43b42103d7fbee16b, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    Loop: 0
+    PlayAtStart: 0
+    Source: {fileID: 0}
+  - Name: Landed
+    AudioClip: {fileID: 8300000, guid: 99776e59fe6d4c64db744d6119468862, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayAtStart: 0
+    Source: {fileID: 0}
+  - Name: Door Kick
+    AudioClip: {fileID: 8300000, guid: 14e0e1edfdda7dd4e839aae32db8b694, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayAtStart: 0
+    Source: {fileID: 0}
+  - Name: Explosion
+    AudioClip: {fileID: 8300000, guid: 158d37f4dd8431441bb50a837e70c87b, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayAtStart: 0
+    Source: {fileID: 0}
+  - Name: Bullet Impact
+    AudioClip: {fileID: 8300000, guid: b9cc530c71c93f740a543b57c96270c9, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayAtStart: 0
+    Source: {fileID: 0}
+  - Name: Game Theme
+    AudioClip: {fileID: 8300000, guid: 63be5f1543c123c4fa05223ae3196fb6, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 1
+    PlayAtStart: 1
+    Source: {fileID: 0}
