@@ -17,3 +17,4 @@
 # Note
 - This game does not have UI.
 - There is only 2 level.
+- The Game is made on Unity ver 2018.3.2f LTS but build on 2022.3.33.f1
